@@ -1,6 +1,6 @@
 # MOS-Burger
 web Link
-http://127.0.0.1:5500/index.html
+
 
 Home Page
 ![Screenshot 2025-06-27 132623](https://github.com/user-attachments/assets/3294b795-c09e-4dff-a51b-353785bcf3c1)

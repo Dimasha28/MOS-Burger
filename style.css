@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color:#dc6b19;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background-color: #fff1e6; 
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.logo img {
+  height: 80px;
+}
+
+.navbar a {
+  position: relative;
+  color: #000000;
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.navbar a::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--primary-color);
+  transition: 0.3s;
+}
+
+.navbar a:hover::before {
+  width: 100%;
+}
+
+.active {
+  color: var(--primary-color) !important;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.left-image img {
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  margin-left: 20px;
+}
+
+.hero-text {
+  max-width: 500px;
+  text-align: center;
+}
+
+/* Button Styling */
+.btn-outline-warning {
+  color: var(--primary-color) !important;
+  border: 2px solid var(--primary-color) !important;
+  border-radius: 40px !important;
+  padding: 10px 40px !important;
+  font-weight: 600;
+  width: 250px;
+  margin-bottom: 15px;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-outline-warning:hover {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  color: white !important;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left-image img {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+
+  .hero-text {
+    width: 100%;
+  }
+}

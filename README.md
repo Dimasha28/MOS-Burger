@@ -53,7 +53,7 @@ This project provides an engaging interface for customers to explore delicious b
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.comDimasha28/mos-burger-shop.git
+   git clone https://github.com/Dimasha28/mos-burger-shop.git
    cd mos-burger-shop
 
 

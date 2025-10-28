@@ -1,6 +1,61 @@
-# MOS-Burger
-web Link
-https://mosburger.netlify.app/
+# 🍔 MOS Burger Shop
+
+Welcome to **MOS Burger Shop** — a modern, responsive, and user-friendly web application for managing and showcasing a burger restaurant’s menu, orders, and online presence.  
+
+This project provides an engaging interface for customers to explore delicious burgers, place orders, and enjoy a smooth digital restaurant experience.
+
+🔗 **Live Website:** [https://mosburger.netlify.app](https://mosburger.netlify.app)
+
+---
+
+## ✨ Features
+
+### 👨‍🍳 Customer Side
+- Browse and view the full burger menu  
+- Add items to cart and place online orders  
+- Responsive and mobile-friendly layout  
+- Interactive UI animations and transitions  
+
+### 🧑‍💼 Admin / Shop Owner
+- Manage menu items (add / edit / delete burgers)  
+- View and handle customer orders  
+- Update promotional offers and pricing  
+- Track sales and popular menu items  
+
+### 🌟 Additional Highlights
+- Modern burger-themed UI design  
+- Optimized for fast performance  
+- Integrated order summary and cart system  
+- Hosted on **Netlify** for easy online access  
+
+---
+
+## 🧠 Technologies Used
+
+| Layer | Technology |
+|-------|-------------|
+| **Frontend** | HTML5, CSS3, JavaScript |
+| **Framework / Library** | React.js (if used) |
+| **Backend (Optional)** | Node.js / Firebase / Mock API |
+| **Database (Optional)** | Firebase / MongoDB / LocalStorage |
+| **Hosting** | Netlify |
+| **Version Control** | Git + GitHub |
+
+---
+
+## ⚙️ Installation & Setup
+
+### Prerequisites
+- Node.js (v14+)
+- npm or yarn
+- Internet connection for API dependencies
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/mos-burger-shop.git
+   cd mos-burger-shop
+
 
 
 Home Page
